@@ -13,6 +13,7 @@ body p, h2, h3, h4, h5, a{
 
 a {
 	font-family: 'Montserrat', sans-serif !important;
+
 	font-size : 23px !important;
 	text-decoration: none;
 	color: black;
@@ -45,6 +46,7 @@ a:hover{
 }
 .bioFont {
 	font-family: 'Montserrat', sans-serif;
+
 
 }
 .proPic {
