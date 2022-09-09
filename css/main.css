@@ -1,18 +1,18 @@
 body p, h2, h3, h4, h5, a{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif !important;
 }
 
 .top-margin {
   margin-top: 150px !important;
 }
 .text {
-	font-family: 'Do Hyeon', sans-serif !important;
+	font-family: 'Montserrat', sans-serif !important;
 	font-size: 20px;
 	margin-top: 20px;
 }
 
 a {
-	font-family: 'Do Hyeon', sans-serif !important;
+	font-family: 'Montserrat', sans-serif !important;
 	font-size : 23px !important;
 	text-decoration: none;
 	color: black;
@@ -44,7 +44,7 @@ a:hover{
 
 }
 .bioFont {
-	font-family: 'Grandstander', cursive !important;
+	font-family: 'Montserrat', sans-serif;
 
 }
 .proPic {

@@ -2,20 +2,20 @@
 <html>
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-    <title>memory lane</title>
+    <title>Mahwish Raja</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="title" content="Black Owned">
-    <meta name="description" content="Find black owned restaurants to support and give your business to.">
+    <meta name="title" content="Mohammad Khizar from UC Berkeley.">
+    <meta name="description" content="Mohammad Khizar from UC Berkeley.">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Black Owned">
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
     <meta name="mobile-web-app-capable" content="yes">
 
-    <meta property="og:title" content="Black Owned" />
-    <meta property="og:description" content="Find black owned restaurants to support and give your business to." />
+    <meta property="og:title" content="Mohammad Khizar" />
+    <meta property="og:description" content="Mohammad Khizar from UC Berkeley.." />
     <!-- <meta property="og:image" content="https://i.imgur.com/Badp62V.png"> -->
     <meta property="og:type" content="website" />
     <!-- <meta property="og:url" content="http://levels.fyi/still-hiring/"> -->
@@ -49,76 +49,80 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=IBM+Plex+Serif&family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
 
+  <style>
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        border-radius: 0%;
+        width: 250px;
+    }
+  </style>
 
-
-  </head> 
-
-
-
-
-
-
-
-  <body style="background-color: pink !important;">
-<!--  Start of #previous! -->
-    <div class="d-flex justify-content-center text">
-    <div class="p-2"><a href="index.html"> can't finish your desert? call mahwish </a></div>
+  <body style="background-color: #FFEBCD;">
+<!--  Navigation Bar! -->    
+  <div class="d-flex justify-content-center text">
+    <div class="p-2"><a href="previous.html"> some about her</a></div>
+    <div class="p-2">  | </div>
+    <div class="p-2"><a href="current.html"> what she up to now?</a></div>
+    <!-- <div class="p-2"><a href="bio.html"> who is she?</a></div> -->
+  </div>    
+<!--  My Profile Picture --> 
+  <div class="container">
+    <div class ="proPic"> 
+      <img class ="proPic" src="img/mah2.png" alt="Khiz Grad Pic" height="280">
     </div>
-
-    <div class="container-fluid">
-        <button type="button" class="collapsible text"> <h2 class="text"> how mahwish and khizar met </h2> </button>
-
-        <div class="content">
-            <ul>
-              <li>shoutout benvenue ave </li>
-              <li> 2018 is when khizar met the baddest b in the town of berkeley. shawty was walkin around the streets looking mighty fine.</li>
-              <li> khizar decided to put his A game on and slid in her sisters dms to inquire about her.</li>
-              <li> after sliding in her sisters dms, he slid in her dms (after she slid in his ;) )</li>
-              <li> rest, we will not talk about. they broke up. fuck!!!! then they were married, happily ever after! that's all you need to know :) </li>
-              <li> <img class ="proPic" src="img/wed1.png" alt="Khiz Grad Pic" height="280"> <img class ="proPic" src="img/wed2.png" alt="Khiz Grad Pic" height="280"> </li>
-            </ul> 
-
-        </div>
-    
-    </div>
+  </div>
 
 
-      
-    <script>
-        var contain = document.getElementsByClassName("collapsible");
-        var i;
+<!-- Greeting -->
+  <div class="d-flex justify-content-center text">
+    <!-- <div class="p-2" id="greeting"></div> -->
+    <div class="p-2">she is mahwish raja khan</div>
+  </div>
 
-        for (i = 0; i < contain.length; i++) {
-            contain[i].addEventListener('click', function() {
-                var content = this.nextElementSibling;
-                if(content.style.display === "block"){
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
+
+<!-- One Word Bio -->
+  <div class="d-flex justify-content-center text">
+    <div class="p-2"></div>
+    <div class="p-2">prettiest 🌙</div>
+    <div class="p-2">|</div>
+    <div class="p-2" id="greetting"> kindest 🫀</div>
+    <div class="p-2" >|</div>
+    <div class="p-2"> craziest 🤪</div>
+    <div class="p-2">|</div>
+  </div>
+
+
+    <!-- <div class="p-2" style="font-family: Comic Sans MS, cursive, sans-serif !important; font-size: 8px;"> white really hurt my eyes, so i chose this background color for its softness</div> -->
+  </div>
+
+  <!-- <button type="button" class="btn btn-dark">Dark</button> -->
+
+
+
+  <script>
+    const greeting = document.getElementById('greeting');
+    var greetings = ['Salaam, I\'m Khizar.', 'Hello, I\'m Khizar.', 'Namaste, I\'m Khizar.', 'Kemcho, I\'m Khizar.', 'Kiddan, I\'m Khizar.', 'Yo, I\'m Khizar.', 'Sup, I\'m Khizar.'];
+
+    textSequence(0);
+    function textSequence(i) {
+        if (greetings.length > i) {
+            setTimeout(function() {
+                greeting.textContent = greetings[i];
+                textSequence(++i);
+            }, 1000); // 1 second (in milliseconds)
+
+        } else if (greetings.length == i) { // Loop
+            textSequence(0);
         }
 
-
-
-    </script>
-
-
-
-
-
+    }
+  </script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Localized -->
