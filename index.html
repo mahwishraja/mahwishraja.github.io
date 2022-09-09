@@ -85,10 +85,13 @@
 
 <!-- Greeting -->
   <div class="d-flex justify-content-center text">
-    <!-- <div class="p-2" id="greeting"></div> -->
-    <div class="p-2">she is mahwish raja khan</div>
+    <div class="p-2" id="greeting"> <br></div>
+    <!-- <div class="p-2">she is mahwish raja khan</div> -->
 
   </div>
+  <div class="d-flex justify-content-center text">
+  <div class="p-2">she is mahwish raja khan</div>
+</div>
 
 
 <!-- One Word Bio -->
@@ -113,14 +116,14 @@
 
   <script>
     const greeting = document.getElementById('greeting');
-    var greetings = ['Salaam, I\'m Khizar.', 'Hello, I\'m Khizar.', 'Namaste, I\'m Khizar.', 'Kemcho, I\'m Khizar.', 'Kiddan, I\'m Khizar.', 'Yo, I\'m Khizar.', 'Sup, I\'m Khizar.'];
+    var greetings = ['beautiful', 'smart', 'sexy', 'loving','kind', 'caring', 'gorgeous' ,'fashionista', 'iconic', 'perfect'];
 
     textSequence(0);
     function textSequence(i) {
         if (greetings.length > i) {
             setTimeout(function() {
                 greeting.textContent = greetings[i];
-                textSequence(++i);
+                'she is' + textSequence(++i);
             }, 1000); // 1 second (in milliseconds)
 
         } else if (greetings.length == i) { // Loop
