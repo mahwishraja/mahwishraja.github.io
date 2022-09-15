@@ -12,15 +12,14 @@ body p, h2, h3, h4, h5, a{
 }
 
 a {
-	font-family: 'Montserrat', sans-serif !important;
-
+	font-family: 'Noto Serif', serif;
 	font-size : 23px !important;
 	text-decoration: none;
 	color: black;
 }
 
 a:hover{
-	color: DarkCyan;
+	color: #2F4F4F;
 	text-decoration: none;
 }
 
@@ -30,23 +29,22 @@ a:hover{
 	font-size: 50px;
 	margin-top: 20px;
 	border: none;
-	border-radius: 35%;
+	border-radius: 20%;
 	padding: none;
-	background-color: white;
+	background-color: #FFFACD;
 }
 .collapsible:hover{
 	color: DarkCyan;
 	text-decoration: none;
 }
 .content {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Noto Serif', serif;
 	font-size: 20px;
 	display: none;
 
 }
 .bioFont {
 	font-family: 'Montserrat', sans-serif;
-
 
 }
 .proPic {
