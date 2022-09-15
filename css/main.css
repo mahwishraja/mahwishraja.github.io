@@ -8,11 +8,15 @@ body p, h2, h3, h4, h5, a{
 .text {
 	font-family: 'Montserrat', sans-serif !important;
 	font-size: 20px;
-	margin-top: 19.5px;
+	margin-top: 20px;
 }
 
 a {
+<<<<<<< HEAD
 	font-family: 'Noto Serif', serif;
+=======
+	font-family: 'Montserrat', sans-serif !important;
+>>>>>>> 677871953d98d3398c52238cef38f6b31f711570
 	font-size : 23px !important;
 	text-decoration: none;
 	color: black;
